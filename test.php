@@ -37,7 +37,7 @@ class Ps {
         echo 'test'; echo 'same line';
     }
     protected function closureTest($test) {
-        return function() use ($test) { echo 'one line closure'; }
+        return function() use ($test) { echo 'one line closure'; };
     }
     private function under_scores($test,$test2,$test3, $test4){
         $arr = [2,1,3,21,5,3];
